@@ -59,6 +59,10 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap; /*wraps photos to contain within the 900px width & avoid overflows*/
+    flex-direction: column; /*aligns grid on vertical axis vs. horizontal axis*/
+    align-items: center; /*aligns the images in the center of the horizontal axis. The justify-content command justifies content to the center of the box, but
+    the flex-direction command rotates the box -- so to get alignment correct you must tell CSS what to do. */
+    
 }
 
 .photo-grid-item{
